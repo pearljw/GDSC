@@ -1,0 +1,21 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    margin-right: 0;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    color: #9e1818;
+}
+/*It was looking the same even when hovering so I added hover*/
+button:hover {
+    transform: scale(1.02);
+    filter: brightness(1.0); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    color: blueviolet;
+}
